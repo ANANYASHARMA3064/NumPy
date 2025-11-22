@@ -20,9 +20,10 @@ import numpy as np
 #comparision operatoes 
 array =np.array([100,200,90,180])
 # print(array==90) returns a boolean array
-# print(array>90)
-array[array<100]=0
-print(array)
+# print(array>90) 
+# array[array<100]=0
+# print(array)
+# [100 200   0 180]
 
 
 
